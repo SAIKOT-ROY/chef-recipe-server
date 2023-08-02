@@ -10,7 +10,7 @@ const food = require('./data/food.json')
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('Assignment ten')
+    res.send(chef)
 });
 
 app.get('/chef', (req, res) => {
